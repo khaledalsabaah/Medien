@@ -1,0 +1,537 @@
+html {
+  scroll-behavior: smooth !important;
+
+  background-color: #fff0b3 !important; /* vanille Gelb wie Sie mir gesagt haben */
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+  box-sizing: border-box;
+}
+/* header */
+.content {
+  height: 90vh;
+  border-radius: 6px;
+}
+.nav-bar {
+  background-color: #d0bb94;
+  position: fixed;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0;
+  z-index: 10000;
+}
+.logo {
+  width: 7rem;
+  height: 7rem;
+  cursor: pointer;
+}
+.logo-box {
+  margin-left: 2rem;
+}
+nav {
+  text-transform: uppercase;
+  color: #000;
+}
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 1px 2rem;
+  transition: all 0.3s ease-in-out;
+  color: black;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+}
+
+nav ul li :hover {
+  transform: translateX(2px);
+  color: saddlebrown;
+  border-bottom: 2px solid gold;
+}
+.text h3 {
+  font-size: 1.4rem;
+  color: black;
+}
+.text h1 {
+  font-size: 2.5rem;
+  color: black;
+  transition: all 0.3s ease-in-out;
+}
+
+.text p {
+  font-size: 1rem;
+  color: black;
+  border-left: 2px solid white;
+  padding-left: 5px;
+  margin-top: 1.3rem;
+}
+.text {
+  margin-top: 8%;
+}
+.buttons {
+  margin-top: 3rem;
+}
+.buttons a {
+  text-decoration: none;
+}
+.btn-1 {
+  background-image: linear-gradient(to right bottom, gray, white);
+  margin-right: 1rem;
+  padding: 7px 12px;
+  border-radius: 8px;
+  color: black;
+  transition: all 0.3s ease-in-out;
+}
+.btn-2 {
+  border: 1px solid white;
+  background: none;
+  padding: 7px 12px;
+  border-radius: 8px;
+  color: black;
+  transition: all 0.3s ease-in-out;
+}
+.btn-2:hover {
+  background-image: linear-gradient(to right bottom, gray, white);
+  margin-right: 1rem;
+  padding: 7px 12px;
+  box-shadow: 0 1.4rem 2rem rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  color: black;
+  transform: scale(1.02);
+}
+.btn-1:hover {
+  border: 1px solid white;
+  background: none;
+  padding: 7px 12px;
+  border-radius: 8px;
+  color: black;
+  transform: scale(1.02);
+}
+.picture {
+  width: 100%;
+}
+
+.fab {
+  margin-left: 1.5rem;
+  opacity: 0.6;
+}
+
+/* Footer */
+
+a {
+  text-decoration: none;
+}
+
+/* footer start */
+
+footer {
+  background-color: #d0bb94;
+
+  text-align: center;
+
+  padding: 10px 0;
+}
+
+/* social media icons */
+
+.sm-handle {
+  display: flex;
+
+  padding-top: 2rem;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.sm-handle a {
+  color: #fff !important;
+}
+
+.sm-button {
+  margin: 0px 10px 0px;
+
+  border: 1px solid #bababa;
+
+  border-radius: 100%;
+
+  width: 2rem;
+
+  height: 2rem;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  cursor: pointer;
+}
+
+.sm-button:hover {
+  background: linear-gradient(to right, #6500ff, #a400ff);
+}
+
+.fab {
+  color: rgb(0, 0, 0);
+
+  font-size: 16px;
+}
+
+/* footer all links*/
+
+.footer-links {
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+
+  color: rgb(0, 0, 0);
+
+  letter-spacing: 1.5px;
+
+  word-spacing: 2px;
+}
+
+.menu-title {
+  margin-bottom: 10px;
+}
+
+.menu {
+  margin-bottom: 20px;
+
+  margin-top: 10px;
+}
+
+.menu-links,
+.other-links {
+  display: block;
+  font-family: "Nunito Sans", sans-serif;
+
+  color: #d5d5d5;
+
+  cursor: pointer;
+
+  margin: 10px 0;
+}
+
+.menu-links:hover {
+  color: #6500ff;
+}
+
+.other-links:hover {
+  color: #6500ff;
+}
+
+.not-clickable {
+  cursor: default;
+}
+.not-clickable:hover {
+  color: #d5d5d5 !important;
+}
+
+.line-under-table {
+  border-color: #ab8b65;
+  width: 30%;
+}
+
+.d-flex img {
+  width: 30vw;
+}
+
+.d-flex,
+.text1 {
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 39px;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.d-flex {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.text1 {
+  margin-left: 15px !important;
+}
+
+.d-flex,
+.text1,
+h2 {
+  padding: 20px;
+  text-align: left;
+}
+
+.d-flex p {
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 39px;
+  text-align: left;
+}
+
+/* aboutus seite */
+.flex-about {
+  flex-direction: column !important;
+}
+.text1,
+.liste,
+li {
+  list-style-type: none !important;
+}
+
+/* Speise- und Getränkekarte seite */
+.speisekarte {
+  display: block;
+  width: 300px;
+  margin-left: -15%;
+  padding: 30px;
+}
+.downlod {
+  text-align: center;
+}
+.button1 {
+  font-family: inherit;
+  font-size: 16px;
+  width: 150px;
+  padding: 10px;
+  margin: 15px;
+  border-radius: 20px;
+}
+/* GALLERIE seite */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 24.99% !important;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+.text1 h2 {
+  padding: 0 !important;
+}
+.flex-about img {
+  width: 100% !important;
+  margin-bottom: 20px;
+}
+.no-padding {
+  padding: 0 !important;
+}
+.no-margin {
+  margin: 0 !important;
+}
+
+.flex {
+  display: flex;
+}
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+.w-60 {
+  width: 60%;
+}
+.center {
+  margin: 0 auto;
+}
+
+.heisegetranke {
+  width: 50%;
+}
+.kaltgetranke {
+  width: 50%;
+}
+.Alkoholische {
+  width: 50%;
+}
+.Schnittchen {
+  width: 50%;
+}
+.mt-3 {
+  margin-top: 10px;
+}
+
+.mb-3 {
+  margin-bottom: 10px;
+}
+
+.customers-message {
+  position: relative;
+  min-height: 100px;
+}
+.customers-message .message {
+  position: absolute;
+  right: 40px;
+  top: 0;
+  width: 30%;
+  margin-top: 30px;
+}
+.hide-on-desktop {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 0px 5px 5px 5px !important;
+  }
+  .w-60 {
+    width: 95%;
+  }
+  .d-flex,
+  .flex {
+    flex-direction: column;
+    width: 100%;
+    padding: 5px;
+  }
+  .price-item {
+    flex-direction: row !important;
+  }
+  .d-flex img,
+  .flex-about img {
+    width: 80% !important;
+    margin-left: 32px;
+  }
+  .text1 {
+    padding-left: 25px !important;
+    padding-right: 10px !important;
+  }
+
+  #menu {
+    padding-left: 32px;
+  }
+  .speisekarte {
+    margin-left: 0% !important;
+  }
+  .customers-message .message {
+    position: static;
+    right: 40px;
+    top: 0;
+    width: 70%;
+  }
+}
+
+@media (max-width: 600px) {
+  .picture {
+    margin-bottom: 20px !important;
+  }
+  .logo {
+    width: 100px !important;
+    height: 100px !important;
+  }
+
+  .nav-bar ul {
+    display: none !important;
+  }
+
+  .nav-bar {
+    position: static;
+  }
+  .heisegetranke,
+  .kaltgetranke,
+  .Schnittchen,
+  .Alkoholische {
+    width: 90%;
+    margin-top: 20px;
+  }
+  .footer-links {
+    display: block;
+  }
+
+  .text1 ul {
+    list-style: none !important;
+  }
+}
